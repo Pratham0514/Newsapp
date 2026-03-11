@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Home from './views/Home'
 function App() {
   return (
-    <div className='text-2xl color-orange'>App</div>
+    <>
+      <Home />
+    </>
   )
 }
 
